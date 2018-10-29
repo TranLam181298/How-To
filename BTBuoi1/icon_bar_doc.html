@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .icon-bar {
+            width: 100%;
+            background: #555;
+            overflow: auto;
+        }
+        .icon-bar a {
+            float: left;
+            width: 20%;
+            text-align: center;
+            transition: all 0.3 ease;
+            color: white;
+            font-size: 36px;
+            padding: 12px 0;
+        }
+        .icon-bar .active {
+            background: #4CAF50;
+        }
+        .icon-bar a:hover:not(.active) {
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a href="#"><i class="fa fa-search"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class="fa fa-trash"></i></a>
+</div>
+
+</body>
+</html>
